@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:zombie_spawn_egg"
+        }, 
+        "title": {
+            "text": "Zombies Battle"
+        }, 
+        "description": {
+            "text": "tick"
+        }, 
+        
+        "show_toast": false, 
+        "announce_to_chat": false
+    }, 
+    "criteria": {
+        "instant": {
+            "trigger": "minecraft:tick"
+        }
+    }, 
+"parent":"ztb:setup",
+    "rewards": {
+        "function": "ztb:main"
+    }
+}

@@ -1,0 +1,9 @@
+summon minecraft:snowball ~ ~1.5 ~ {Motion:[1.0,0.0,0.0]}
+summon minecraft:snowball ~ ~1.5 ~ {Motion:[1.0,0.0,1.0]}
+summon minecraft:snowball ~ ~1.5 ~ {Motion:[0.0,0.0,1.0]}
+summon minecraft:snowball ~ ~1.5 ~ {Motion:[-1.0,0.0,0.0]}
+summon minecraft:snowball ~ ~1.5 ~ {Motion:[-1.0,0.0,-1.0]}
+summon minecraft:snowball ~ ~1.5 ~ {Motion:[0.0,0.0,-1.0]}
+summon minecraft:snowball ~ ~1.5 ~ {Motion:[1.0,0.0,-1.0]}
+summon minecraft:snowball ~ ~1.5 ~ {Motion:[-1.0,0.0,1.0]}
+scoreboard players set @s hurt 0
