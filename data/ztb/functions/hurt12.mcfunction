@@ -1,0 +1,1 @@
+scoreboard players add @e[type=zombie,name="bfb",distance=..0.01,limit=1] hurt 1
