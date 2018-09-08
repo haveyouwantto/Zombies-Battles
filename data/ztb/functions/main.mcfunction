@@ -31,5 +31,5 @@ execute as @e[type=zombie,nbt={HurtTime:9s},name="after-zomg"] at @s run functio
 execute as @e[type=zombie,nbt={HurtTime:9s},name="spawner"] at @s run function ztb:kills
 execute as @e[type=rabbit,name="dart"] at @s run function ztb:dart
 execute as @e[type=villager,name="tack"] at @s run scoreboard players add @s hurt 1
-execute as @e[type=villager,name="tack",scores={hurt=30..}] at @s run function ztb:tack
+execute as @e[type=villager,name="tack",scores={hurt=30..}] at @s if entity @e[type=minecraft:zombie,distance=..10] run function ztb:tack
 advancement revoke @s only ztb:tick
